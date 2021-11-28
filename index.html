@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hii this is fibonacii program</h1>
+    <script>
+        var n1=0,n2=1;
+        var n=prompt("enter the number");
+        document.write("0");
+        document.write("1");
+        var next;
+        console.log(n2);
+        for(var i=1;i<n;i++){
+            next=n1+n2;
+            n1=n2;
+            n2=next;
+            document.write(n2);
+        }
+    </script>
+</body>
+</html>
